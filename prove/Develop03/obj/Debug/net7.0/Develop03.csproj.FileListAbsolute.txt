@@ -1,0 +1,15 @@
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.AssemblyInfoInputs.cache
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.AssemblyInfo.cs
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.sourcelink.json
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\bin\Debug\net7.0\Develop03.exe
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\bin\Debug\net7.0\Develop03.deps.json
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\bin\Debug\net7.0\Develop03.runtimeconfig.json
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\bin\Debug\net7.0\Develop03.dll
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\bin\Debug\net7.0\Develop03.pdb
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.dll
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\refint\Develop03.dll
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.pdb
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\Develop03.genruntimeconfig.cache
+C:\Users\Nathan\Desktop\cse210-projects\prove\Develop03\obj\Debug\net7.0\ref\Develop03.dll
