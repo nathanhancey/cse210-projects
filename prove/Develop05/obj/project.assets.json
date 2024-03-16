@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Nathan\\Desktop\\cse210-projects\\prove\\Develop05\\Develop05.csproj",
+      "projectUniqueName": "C:\\Users\\Nathan\\Desktop\\cse210-projects-main\\prove\\Develop05\\Develop05.csproj",
       "projectName": "Develop05",
-      "projectPath": "c:\\Users\\Nathan\\Desktop\\cse210-projects\\prove\\Develop05\\Develop05.csproj",
+      "projectPath": "C:\\Users\\Nathan\\Desktop\\cse210-projects-main\\prove\\Develop05\\Develop05.csproj",
       "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Nathan\\Desktop\\cse210-projects\\prove\\Develop05\\obj\\",
+      "outputPath": "C:\\Users\\Nathan\\Desktop\\cse210-projects-main\\prove\\Develop05\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config"

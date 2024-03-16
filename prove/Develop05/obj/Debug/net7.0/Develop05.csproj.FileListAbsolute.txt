@@ -1,0 +1,14 @@
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\Develop05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\Develop05.AssemblyInfoInputs.cache
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\Develop05.AssemblyInfo.cs
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\Develop05.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\bin\Debug\net7.0\Develop05.exe
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\bin\Debug\net7.0\Develop05.deps.json
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\bin\Debug\net7.0\Develop05.runtimeconfig.json
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\bin\Debug\net7.0\Develop05.dll
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\bin\Debug\net7.0\Develop05.pdb
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\Develop05.dll
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\refint\Develop05.dll
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\Develop05.pdb
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\Develop05.genruntimeconfig.cache
+C:\Users\Nathan\Desktop\cse210-projects-main\prove\Develop05\obj\Debug\net7.0\ref\Develop05.dll

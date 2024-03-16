@@ -1,58 +1,48 @@
-using System;
-
 class Goal
 {
-    public int Points { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
+    public string Name { get; }
+    public string Description { get; }
     public bool Completed { get; private set; }
 
-    public Goal(int points, string name, string description)
+    public Goal(string name, string description)
     {
-        Points = points;
         Name = name;
         Description = description;
-        Completed = false; // By default, the goal is not completed
+        Completed = false;
     }
 
-    public void SetGoalInformation()
+    public string DisplayName()
     {
-        Console.WriteLine("Enter the name of the goal:");
-        Name = Console.ReadLine();
-
-        Console.WriteLine("Enter the description of the goal:");
-        Description = Console.ReadLine();
-
-        Console.WriteLine("Enter the points for the goal:");
-        Points = Convert.ToInt32(Console.ReadLine());
+        return $"{Name} ({(Completed ? "Completed" : "Not Completed")})";
     }
 
     public void PrintGoalInfo()
     {
         Console.WriteLine("Goal Information:");
-        Console.WriteLine(Name + ": " + Description);
+        Console.WriteLine($"{Name}: {Description}");
         Console.WriteLine("Completed: " + (Completed ? "Yes" : "No"));
     }
 
-    public void CompleteGoal()
+    public virtual void CompleteGoal(ref int totalPoints)
     {
-        if (Completed)
-        {
-            Console.WriteLine("Goal is already completed!");
-            return;
-        }
-
-        Console.WriteLine("Was the goal completed? (1 for yes, 0 for no)");
+        Console.WriteLine(Name + ": " + Description);
+        Console.WriteLine($"Do you want to complete the goal: {Name}? (1 for yes, 2 for no)");
         int completionInput = Convert.ToInt32(Console.ReadLine());
 
         if (completionInput == 1)
         {
             Completed = true;
-            Console.WriteLine("Goal completed!");
+            totalPoints += 100;
+            Console.WriteLine("Goal completed! +100pts!");
+        }
+        else if (completionInput == 2)
+        {
+            Console.WriteLine($"Goal {Name} remains incomplete.");
         }
         else
         {
-            Console.WriteLine("Goal not completed.");
+            Console.WriteLine("Invalid input. Goal not completed.");
         }
     }
+
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Simple Goal",
+    "Description": "do once",
+    "Completed": false
+  },
+  {
+    "Name": "Eternal Goal",
+    "Description": "Can be done forever!",
+    "Completed": false
+  },
+  {
+    "Name": "List Goal",
+    "Description": "Done after 3 entries",
+    "Completed": false
+  }
+]
