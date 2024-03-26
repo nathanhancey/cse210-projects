@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "o9jCrnfyZD6LRJtPNi+jbbZu3i3ASBG59LRmiEkPlHAMJs5yk5j8PR3vsZJ+N+4jayKHTTffSNJa+KgvLevCpA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Nathan\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nathan\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

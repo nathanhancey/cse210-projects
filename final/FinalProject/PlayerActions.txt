@@ -1,0 +1,4 @@
+Swing Sword,10,1,75,0
+Cast Magic Missile,3,2,100,0
+Shoot Arrow,8,1,85,0
+Stab Knife,4,2,80,0
