@@ -1,0 +1,4 @@
+Skeletal Slash,6,1,50,0,0
+Spider Bite,4,1,60,2,2
+Stone Slam,8,1,70,0,0
+Necrotic Blast,6,2,70,0,10

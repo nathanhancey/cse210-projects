@@ -1,0 +1,5 @@
+Skeleton Soldier,20,Skeletal Slash
+Skeleton Knight,40,Skeletal Slash
+Giant Spider,30,Spider Bite
+Stone Golem,60,Stone Slam
+Necromancer,40,Necrotic Blast

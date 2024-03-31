@@ -12,3 +12,17 @@ C:\Users\Nathan\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0
 C:\Users\Nathan\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.pdb
 C:\Users\Nathan\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.genruntimeconfig.cache
 C:\Users\Nathan\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\ref\FinalProject.dll
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\bin\Debug\net7.0\FinalProject.exe
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\bin\Debug\net7.0\FinalProject.deps.json
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\bin\Debug\net7.0\FinalProject.runtimeconfig.json
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\bin\Debug\net7.0\FinalProject.dll
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\bin\Debug\net7.0\FinalProject.pdb
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.AssemblyInfoInputs.cache
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.AssemblyInfo.cs
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.dll
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\refint\FinalProject.dll
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.pdb
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\FinalProject.genruntimeconfig.cache
+C:\Users\nateh\Desktop\cse210-projects-main\final\FinalProject\obj\Debug\net7.0\ref\FinalProject.dll

@@ -1,29 +1,26 @@
 using System;
 using System.IO;
 
-class Action
+class Mobaction: Action
 {
-    protected string name = "";
-    protected int damage = 0;
-    protected int hits = 0;
-    protected int accuracy = 0;
-    protected int tick = 0;
+    private int fear = 0;
 
-    virtual public void GetAction(string actionName)
+    override public void GetAction(string actionName)
     {
-        string filePath = "PlayerActions.txt";
+        string filePath = "MobActions.txt";
         string[] lines = File.ReadAllLines(filePath);
 
         foreach (string line in lines)
         {
             string[] parts = line.Split(',');
-            if (parts.Length == 5 && parts[0].Trim().Equals(actionName, StringComparison.OrdinalIgnoreCase))
+            if (parts.Length == 6 && parts[0].Trim().Equals(actionName, StringComparison.OrdinalIgnoreCase))
             {
                 name = parts[0].Trim();
                 damage = int.Parse(parts[1].Trim());
                 hits = int.Parse(parts[2].Trim());
                 accuracy = int.Parse(parts[3].Trim());
                 tick = int.Parse(parts[4].Trim());
+                fear = int.Parse(parts[5].Trim());
                 return;
             }
         }
@@ -31,16 +28,18 @@ class Action
         throw new ArgumentException("Action not found in the file.", nameof(actionName));
     }
 
-    virtual public void PrintAction()
+
+    override public void PrintAction()
     {
         Console.WriteLine($"Action Name: {name}");
         Console.WriteLine($"Damage: {damage}");
         Console.WriteLine($"Hits: {hits}");
         Console.WriteLine($"Accuracy: {accuracy}");
         Console.WriteLine($"Tick: {tick}");
+        Console.WriteLine($"Fear: {fear}");
     }
 
-    virtual public int CalculateDamage()
+    override public int CalculateDamage()
     {
         Random random = new Random();
         int totalDamage = 0;
@@ -61,11 +60,11 @@ class Action
 
         if (successfulHits == 0)
         {
-            Console.WriteLine($"You used {name} and missed.");
+            Console.WriteLine($"The enemy uses {name} and misses.");
         }
         else
         {
-            Console.Write($"You landed {successfulHits} hits for ");
+            Console.Write($"The enemy landed {successfulHits} hits for ");
             foreach (int roll in damageRolls)
             {
                 Console.Write($"{roll}, ");
@@ -74,10 +73,5 @@ class Action
         }
 
         return totalDamage;
-    }
-
-    public string GetName()
-    {
-        return name;
     }
 }

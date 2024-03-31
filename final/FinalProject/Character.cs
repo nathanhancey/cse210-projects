@@ -2,15 +2,15 @@ using System;
 
 class Character
 {
-    private int health = 0;
+    protected int health = 0;
 
     public int GetHealth()
     {
         return health;
     }
 
-    //public int SetHealth(int newValue)
-    //{
-    //    health = newValue;
-    //}
+    public void SetHealth(int newValue)
+    {
+        health = newValue;
+    }
 }

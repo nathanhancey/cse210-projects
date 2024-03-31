@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Nathan\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj": {}
+    "C:\\Users\\nateh\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Nathan\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj": {
+    "C:\\Users\\nateh\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Nathan\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\nateh\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "c:\\Users\\Nathan\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj",
-        "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Nathan\\Desktop\\cse210-projects-main\\final\\FinalProject\\obj\\",
+        "projectPath": "C:\\Users\\nateh\\Desktop\\cse210-projects-main\\final\\FinalProject\\FinalProject.csproj",
+        "packagesPath": "C:\\Users\\nateh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nateh\\Desktop\\cse210-projects-main\\final\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nateh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -51,19 +56,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.15, 7.0.15]"
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
+              "version": "[7.0.17, 7.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
