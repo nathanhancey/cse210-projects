@@ -1,0 +1,8 @@
+Skeleton Soldier,20,Skeletal Slash
+Skeleton Knight,35,Skeletal Slash,Bone Pomell
+Giant Spider,25,Insect Bite
+Stone Golem,45,Stone Slam
+Necromancer,40,Necrotic Blast
+Giant Praying Mantis,35,Insect Slice,Insect Bite
+Giant Slime,40,Gelatinous Punch
+Dungeon Guardian,60,Stone Slam,Crystal Ray

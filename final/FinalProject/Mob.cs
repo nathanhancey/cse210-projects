@@ -10,13 +10,13 @@ class Mob : Character
 
     public void GetMob(string mobName)
     {
-        string filePath = "Mobs.txt";
+        string filePath = @"GameData\Mobs.txt";
         string[] lines = File.ReadAllLines(filePath);
 
         foreach (string line in lines)
         {
             string[] parts = line.Split(',');
-            if (parts.Length >= 2 && parts[0].Trim().Equals(mobName, StringComparison.OrdinalIgnoreCase))
+            if (parts.Length >= 2 && parts[0].Trim().Equals(mobName))
             {
                 name = parts[0].Trim();
                 health = int.Parse(parts[1].Trim());
@@ -49,7 +49,7 @@ class Mob : Character
         actions.Add(action);
     }
 
-    public int MobAction()
+    public (int totalDamage, int tick) MobAction()
     {
         if (actions.Count == 0)
         {
@@ -57,7 +57,8 @@ class Mob : Character
         }
 
         Mobaction selectedAction = actions[random.Next(actions.Count)];
-        return selectedAction.CalculateDamage();
+        (int totalDamage, int tick) actionResult = selectedAction.CalculateDamage();
+        return actionResult;
     }
 
     public string GetName()

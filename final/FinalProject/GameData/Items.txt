@@ -1,0 +1,12 @@
+Fireball Scroll,6,8,80,0,2
+Healing Potion,-8,2,100,-1,1
+Healing Potion+,-8,3,100,-2,1
+Healing Potion++,-8,4,100,-3,1
+Bear Trap,20,1,60,0,1
+Fairy Bottle,-1,1,100,-6,1
+Poison Arrow,8,1,90,3,4
+Enchanted Hammer,12,1,85,0,5
+Bomb,6,4,85,0,1
+Sleeping Powder,2,4,90,-2,1
+Healing Salve,-1,1,100,-3,2
+Frost Gem,4,2,60,4,1

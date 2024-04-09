@@ -1,0 +1,4 @@
+dexterity, Floating around the room, glowing is a small fairy., Fairy Bottle
+survival, An old rusty bear trap lies consciously and open on the floor., Bear Trap
+intellgence, An old dusty lecture holds an insidious old tome, clealy cursed., Fireball Scroll
+strength, Half of the room is covered in the collasped roof structure., Enchanted Hammer

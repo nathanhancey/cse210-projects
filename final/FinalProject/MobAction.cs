@@ -7,13 +7,13 @@ class Mobaction: Action
 
     override public void GetAction(string actionName)
     {
-        string filePath = "MobActions.txt";
+        string filePath = @"GameData\MobActions.txt";
         string[] lines = File.ReadAllLines(filePath);
 
         foreach (string line in lines)
         {
             string[] parts = line.Split(',');
-            if (parts.Length == 6 && parts[0].Trim().Equals(actionName, StringComparison.OrdinalIgnoreCase))
+            if (parts.Length == 6 && parts[0].Trim().Equals(actionName))
             {
                 name = parts[0].Trim();
                 damage = int.Parse(parts[1].Trim());
@@ -28,7 +28,6 @@ class Mobaction: Action
         throw new ArgumentException("Action not found in the file.", nameof(actionName));
     }
 
-
     override public void PrintAction()
     {
         Console.WriteLine($"Action Name: {name}");
@@ -39,7 +38,7 @@ class Mobaction: Action
         Console.WriteLine($"Fear: {fear}");
     }
 
-    override public int CalculateDamage()
+    override public (int totalDamage, int tick) CalculateDamage()
     {
         Random random = new Random();
         int totalDamage = 0;
@@ -60,18 +59,18 @@ class Mobaction: Action
 
         if (successfulHits == 0)
         {
-            Console.WriteLine($"The enemy uses {name} and misses.");
+            Console.WriteLine($"<><> The enemy uses {name} and misses. <><>");
         }
         else
         {
-            Console.Write($"The enemy landed {successfulHits} hits for ");
+            Console.Write($"<><> The enemy landed {successfulHits} hits for ");
             foreach (int roll in damageRolls)
             {
                 Console.Write($"{roll}, ");
             }
-            Console.WriteLine($"for a total of {totalDamage}.");
+            Console.WriteLine($"for a total of {totalDamage}. <><>");
         }
 
-        return totalDamage;
+        return (totalDamage, tick);
     }
 }

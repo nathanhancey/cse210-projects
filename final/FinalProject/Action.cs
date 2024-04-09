@@ -11,7 +11,7 @@ class Action
 
     virtual public void GetAction(string actionName)
     {
-        string filePath = "PlayerActions.txt";
+        string filePath = @"GameData\PlayerActions.txt";
         string[] lines = File.ReadAllLines(filePath);
 
         foreach (string line in lines)
@@ -33,14 +33,17 @@ class Action
 
     virtual public void PrintAction()
     {
-        Console.WriteLine($"Action Name: {name}");
-        Console.WriteLine($"Damage: {damage}");
-        Console.WriteLine($"Hits: {hits}");
-        Console.WriteLine($"Accuracy: {accuracy}");
-        Console.WriteLine($"Tick: {tick}");
+        if (tick == 0)
+        {
+            Console.Write($"{name}: {accuracy}% 1-{damage}x{hits} dmg.");
+        }
+        else
+        {
+            Console.Write($"{name}: {accuracy}% 1-{damage}x{hits} dmg + {tick} poison.");
+        }
     }
 
-    virtual public int CalculateDamage()
+    virtual public (int totalDamage, int tick) CalculateDamage()
     {
         Random random = new Random();
         int totalDamage = 0;
@@ -61,19 +64,19 @@ class Action
 
         if (successfulHits == 0)
         {
-            Console.WriteLine($"You used {name} and missed.");
+            Console.WriteLine($"0> You used {name} and missed. <0");
         }
         else
         {
-            Console.Write($"You landed {successfulHits} hits for ");
+            Console.Write($"0> You landed {successfulHits} hits for ");
             foreach (int roll in damageRolls)
             {
                 Console.Write($"{roll}, ");
             }
-            Console.WriteLine($"for a total of {totalDamage}.");
+            Console.WriteLine($"for a total of {totalDamage}. <0");
         }
 
-        return totalDamage;
+        return (totalDamage, tick);
     }
 
     public string GetName()

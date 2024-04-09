@@ -1,0 +1,4 @@
+dexterity, In the middle of the room there is a white gem sorrounded by spikes., Frost Gem
+survival, Half the room is covered in throned vines. In the brambles there is an old backpack., Healing Potion+
+intellgence, There is an iron cauldron bubbling with a mystery liquid., Healing Potion+
+strength, Collapsed stones pile up in the corner of the room., Bomb

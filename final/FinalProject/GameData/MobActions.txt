@@ -1,0 +1,8 @@
+Skeletal Slash,6,1,50,0,0
+Bone Pomell,4,2,60,0,0
+Insect Bite,4,1,60,2,0
+Stone Slam,8,1,70,0,0
+Necrotic Blast,6,2,70,3,0
+Insect Slice,6,2,65,0,0
+Gelatinous Punch,10,1,70,1,0
+Crystal Ray,4,6,50,0,0
